@@ -20,14 +20,14 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path='/' element={Home} />
-        <Route path='/about' element={About} />
-        <Route path='/contact' element={Contact} />
-        <Route path='/cart' element={Cart} />
-        <Route path='/allproducts' element={AllProducts} />
-        <Route path='/product/:productId' element={Product} />
-        <Route path='/login' element={Login} />
-        <Route path='/place-order' element={PlaceOrder} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/cart' element={<Cart />} />
+        <Route path='/allproducts' element={<AllProducts />} />
+        <Route path='/product/:productId' element={<Product />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/place-order' element={<PlaceOrder />} />
       </Routes>
     </div>    
   )
