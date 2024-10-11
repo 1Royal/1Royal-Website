@@ -23,7 +23,24 @@ import support_icon from "./support-icon.svg";
 import search_icon from "./search-icon.svg";
 import dropDown_icon from "./dropdown-icon.svg";
 
+import social_yt from "./social-icon-yt.svg";
+import social_blogger from "./social-icon-blogger.svg";
+import social_facebook from "./social-icon-facebook.svg";
+import social_linkedIn from "./social-icon-linkedIn.svg";
+import social_whatsapp from "./social-icon-whatsapp.svg";
+import social_pinterest from "./social-icon-pinterest.svg";
+import social_twitter from "./social-icon-twitter.svg";
+import social_mail from "./social-icon-mail.svg";
+
 export const assets = {
+  social_blogger,
+  social_facebook,
+  social_yt,
+  social_linkedIn,
+  social_pinterest,
+  social_whatsapp,
+  social_twitter,
+  social_mail,
   search_icon,
   // logo,
   hero_img,

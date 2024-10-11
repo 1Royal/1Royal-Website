@@ -56,7 +56,7 @@ const Hero = () => {
           pagination={{
             clickable: true,
           }}
-          // navigation={true}
+          navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
@@ -78,6 +78,8 @@ const Hero = () => {
         </Swiper>
         {/* <img className="w-full sm:w-1/2 " src={assets.hero_img} alt="" /> */}
       </div>
+
+      
     </div>
   );
 };

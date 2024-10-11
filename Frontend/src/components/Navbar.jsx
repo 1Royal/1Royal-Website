@@ -48,7 +48,7 @@ const Navbar = () => {
             alt=""
           />
 
-          <div className="group-hover:block hidden absolute dropdown-menu right-0 pt-4">
+          <div className="group-hover:block hidden absolute dropdown-menu right-0 pt-4 z-10">
             <div className="flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded">
               <p className="cursor-pointer hover:text-black">My Profile</p>
               <p className="cursor-pointer hover:text-black">Orders</p>
@@ -73,7 +73,7 @@ const Navbar = () => {
       </div>
 
       {/* Sidebar menu for smaller screen */}
-      <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${visible ? 'w-full' : 'w-0'}`}>
+      <div className={`absolute top-0 right-0 bottom-0 overflow-hidden z-50 bg-white transition-all ${visible ? 'w-full' : 'w-0'}`}>
         <div className="flex flex-col text-gray-600">
           <div onClick={() => setVisible(false)} className="flex items-center gap-2 p-3 border border-b-gray-300 border-t-0">
             <img src={assets.dropDown_icon} className="h-4 cursor-pointer" alt="" />
