@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between py-5 font-medium">
       <NavLink to="/">
         <div className="logo | text-2xl font-serif text-gray-700  ">
-          1Royal{" "}
+          1Royal
         </div>
       </NavLink>
 

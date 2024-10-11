@@ -21,7 +21,7 @@ import menu_bar_icon from "./menu-bar-icon.svg";
 import profile_icon from "./profile-icon.svg";
 import support_icon from "./support-icon.svg";
 import search_icon from "./search-icon.svg";
-import dropDown_icon from "./dropdown-icon.svg"
+import dropDown_icon from "./dropdown-icon.svg";
 
 export const assets = {
   search_icon,
@@ -50,9 +50,74 @@ export const assets = {
 };
 
 export const products = [
-  { id: 1, name: "Morly", description: "Nevin", images: [p_1, p_2, p_7, p_8], "date":"9/29/2024" },
-  { id: 2, name: "Emmanuel", description: "Lanny", images: [p_1, p_2, p_3, p_9], "date":"8/6/2024" },
-  { id: 3, name: "Edmon", description: "Judd", images: [p_1, p_2, p_4, p_10], "date":"10/16/2023" },
-  { id: 4, name: "Lars", description: "Gustavo", images: [p_1, p_2, p_5, p_11], "date":"1/21/2024" },
-  { id: 5, name: "Burr", description: "Jerry", images: [p_1, p_2, p_6, p_12], "date":"10/9/2023" },
+  {
+    id: 1,
+    name: "Morly",
+    description: "Nevin",
+    images: [p_1, p_2, p_7, p_8],
+    date: "9/29/2024",
+  },
+  {
+    id: 2,
+    name: "Emmanuel",
+    description: "Lanny",
+    images: [p_1, p_2, p_3, p_9],
+    date: "8/6/2024",
+  },
+  {
+    id: 3,
+    name: "Edmon",
+    description: "Judd",
+    images: [p_1, p_2, p_4, p_10],
+    date: "10/16/2023",
+  },
+  {
+    id: 4,
+    name: "Lars",
+    description: "Gustavo",
+    images: [p_1, p_2, p_5, p_11],
+    date: "1/21/2024",
+  },
+  {
+    id: 5,
+    name: "Burr",
+    description: "Jerry",
+    images: [p_1, p_2, p_6, p_12],
+    date: "10/9/2023",
+  },
+  {
+    id: 6,
+    name: "Morly",
+    description: "Nevin",
+    images: [p_1, p_2, p_7, p_8],
+    date: "9/29/2024",
+  },
+  {
+    id: 7,
+    name: "Emmanuel",
+    description: "Lanny",
+    images: [p_1, p_2, p_3, p_9],
+    date: "8/6/2024",
+  },
+  {
+    id: 8,
+    name: "Edmon",
+    description: "Judd",
+    images: [p_1, p_2, p_4, p_10],
+    date: "10/16/2023",
+  },
+  {
+    id: 9,
+    name: "Lars",
+    description: "Gustavo",
+    images: [p_1, p_2, p_5, p_11],
+    date: "1/21/2024",
+  },
+  {
+    id: 10,
+    name: "Burr",
+    description: "Jerry",
+    images: [p_1, p_2, p_6, p_12],
+    date: "10/9/2023",
+  },
 ];
