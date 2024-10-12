@@ -32,6 +32,8 @@ import social_pinterest from "./social-icon-pinterest.svg";
 import social_twitter from "./social-icon-twitter.svg";
 import social_mail from "./social-icon-mail.svg";
 
+import icon_location from "./icon-location.svg"
+
 export const assets = {
   social_blogger,
   social_facebook,
@@ -42,6 +44,7 @@ export const assets = {
   social_twitter,
   social_mail,
   search_icon,
+  icon_location,
   // logo,
   hero_img,
   cart_icon,
