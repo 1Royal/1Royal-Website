@@ -3,8 +3,28 @@ import { Link } from "react-router-dom";
 import Title from "./Title";
 import { assets } from "../assets/assets";
 const Footer = () => {
+  const date = new Date();
+  let showTime = date.getHours() + ":" + date.getMinutes();
+
+  function tConvert(time) {
+    // Check correct time format and split into components
+    time = time
+      .toString()
+      .match(/^([01]\d|2[0-3])(:)([0-5]\d)(:[0-5]\d)?$/) || [time];
+
+    if (time.length > 1) {
+      // If time format correct
+      time = time.slice(1); // Remove full string match value
+      time[5] = +time[0] < 12 ? "AM" : "PM"; // Set AM/PM
+      time[0] = +time[0] % 12 || 12; // Adjust hours
+    }
+    return time.join(""); // return adjusted time or original string
+  }
+
+  showTime = tConvert(showTime);
+
   return (
-    <div className="mt-10 px-10 py-10 font-semibol text-gray-600 rounded-md hover:rounded-none transition-all ease-in-out text-xl bg-[#f3f0f0]">
+    <div className="mt-10 px-10 py-10 font-semibol text-gray-600  transition-all ease-in-out text-xl bg-[#f3f0f0]">
       <div className="links flex sm:flex-row flex-col gap-5 justify-between">
         {/* Social Links */}
         <div>
@@ -146,32 +166,67 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="mt-5 flex flex-col sm:flex-row gap-5">
+      <div className="mt-5 flex flex-col xl:flex-row gap-5">
         {/* Address */}
-        <div className="flex items-start gap-2 sm:w-1/2">
+         
+        <div className="flex  p-0 items-start gap-2 w-full xl:w-1/3">
           <img
             className="w-6 pt-[3px] min-w-5 inline"
             src={assets.icon_location}
             alt=""
           />
-          <p className="lg:w-1/2">
+          <p className="leading-tight">
             Office No. 223/B, Shiva Blessing-2, Above Mall, Kalanala, Bhavnagar,
             Gujarat, India. PIN 364001
           </p>
         </div>
-         
+
         {/* Useful Links */}
-        <div className="sm:w-1/2 ">
-          <ul className="sm:flex flex-wrap gap-4">
-            <Link to="/"> <li className="font-semibold hover:text-gray-900 transition-all">Home</li></Link>
-            <Link to="/allproducts"> <li className="font-semibold hover:text-gray-900 transition-all">All Products</li></Link>
-            <Link to="/about"> <li className="font-semibold hover:text-gray-900 transition-all">About Us</li></Link>
-            <Link to="/contact"> <li className="font-semibold hover:text-gray-900 transition-all">Contact Us</li></Link>
+        <div className=" w-full md:w-1/3">
+          <p className="text-xs opacity-95 uppercase">useful links</p>
+          <ul className="md:flex flex-wrap gap-2 md:gap-4">
+            <Link to="/">
+              {" "}
+              <li className="font-semibold hover:text-gray-900 transition-all">
+                Home
+              </li>
+            </Link>
+            <Link to="/allproducts">
+              {" "}
+              <li className="font-semibold hover:text-gray-900 transition-all">
+                All Products
+              </li>
+            </Link>
+            <Link to="/about">
+              {" "}
+              <li className="font-semibold hover:text-gray-900 transition-all">
+                About Us
+              </li>
+            </Link>
+            <Link to="/contact">
+              {" "}
+              <li className="font-semibold hover:text-gray-900 transition-all">
+                Contact Us
+              </li>
+            </Link>
           </ul>
         </div>
-      </div>
 
-      {/* Copyright info */}
+        {/* Version And Local Time */}
+        <div className="flex w-full md:w-1/3 gap-4 justify-between sm:justify-normal ">
+          <div className="flex flex-col gap-1">
+            <p className="text-xs opacity-95 uppercase">version</p>
+            <p className="text-lg font-semibold">2024 &copy; Edition</p>
+          </div>
+
+          <div className="flex flex-col items-start gap-1">
+            <p className="text-xs opacity-95 uppercase">local time</p>
+            <p className="text-lg font-semibold">
+              {showTime} India Time (Local){" "}
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
