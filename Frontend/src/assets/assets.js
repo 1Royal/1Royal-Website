@@ -31,8 +31,12 @@ import social_whatsapp from "./social-icon-whatsapp.svg";
 import social_pinterest from "./social-icon-pinterest.svg";
 import social_twitter from "./social-icon-twitter.svg";
 import social_mail from "./social-icon-mail.svg";
+import icon_location from "./icon-location.svg";
 
-import icon_location from "./icon-location.svg"
+import ship_1 from "./about-ship-1.jpg";
+import ship_2 from "./about-ship-2.png";
+import ship_3 from "./about-ship-3.jpg";
+import ship_4 from "./about-ship-4.jpg";
 
 export const assets = {
   social_blogger,
@@ -67,6 +71,10 @@ export const assets = {
   p_10,
   p_11,
   p_12,
+  ship_1,
+  ship_2,
+  ship_3,
+  ship_4,
 };
 
 export const products = [
