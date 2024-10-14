@@ -1,0 +1,66 @@
+@import url("https://css.gg/css");
+.container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+h1 {
+  color: #ddd;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+p {
+  color: #ccc;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.Marquees {
+  overflow-x: hidden;
+  display: flex;
+}
+.Marquee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200vw;
+  height: 13vh;
+}
+.marquee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 11vh;
+  width: 12.5vw;
+  margin: 10px;
+  border-radius: 15px;
+}
+ 
+.icon {
+  color: #cccccc;
+  transform: scale(1.5);
+}
+.FirstRow {
+  animation: Scroll 60s linear infinite;
+}
+.SecondRow {
+  animation: Scroll 60s linear infinite;
+  animation-direction: reverse;
+}
+@keyframes Scroll {
+  0% {
+    transform: translateX(-50vw);
+    -webkit-transform: translateX(-50vw);
+  }
+  100% {
+    transform: translateX(50vw);
+    -webkit-transform: translateX(50vw);
+  }
+}
