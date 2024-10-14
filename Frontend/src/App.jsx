@@ -14,6 +14,7 @@ import PlaceOrder from "./pages/PlaceOrder";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import WhatsApp from "./components/WhatsApp";
+import OurPolicy from "./pages/OurPolicy";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/product/:productId" element={<Product />} />
         <Route path="/login" element={<Login />} />
         <Route path="/place-order" element={<PlaceOrder />} />
+        <Route path="/our-policy" element={<OurPolicy />} />
       </Routes>
 
       <Footer />

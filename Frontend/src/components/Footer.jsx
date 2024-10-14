@@ -166,10 +166,9 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="mt-5 flex flex-col xl:flex-row gap-5">
+      <div className="mt-5 flex flex-col lg:flex-row gap-5">
         {/* Address */}
-         
-        <div className="flex  p-0 items-start gap-2 w-full xl:w-1/3">
+        <div className="lg:w-1/3 xl:w-1/3 md:w-full sm:w-full flex items-start gap-1 p-0 rounded">
           <img
             className="w-6 pt-[3px] min-w-5 inline"
             src={assets.icon_location}
@@ -182,9 +181,9 @@ const Footer = () => {
         </div>
 
         {/* Useful Links */}
-        <div className=" w-full md:w-1/3">
+        <div className="lg:w-1/3 xl:w-1/3 md:w-full sm:w-full  rounded">
           <p className="text-xs opacity-95 uppercase">useful links</p>
-          <ul className="md:flex flex-wrap gap-2 md:gap-4">
+          <ul className="flex flex-wrap gap-2 md:gap-4">
             <Link to="/">
               {" "}
               <li className="font-semibold hover:text-gray-900 transition-all">
@@ -213,7 +212,7 @@ const Footer = () => {
         </div>
 
         {/* Version And Local Time */}
-        <div className="flex w-full md:w-1/3 gap-4 justify-between sm:justify-normal ">
+        <div className="lg:w-1/3 xl:w-1/3 md:w-full sm:w-full md:flex block gap-4 justify-between sm:justify-normal">
           <div className="flex flex-col gap-1">
             <p className="text-xs opacity-95 uppercase">version</p>
             <p className="text-lg font-semibold">2024 &copy; Edition</p>

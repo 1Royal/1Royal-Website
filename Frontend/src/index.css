@@ -6,7 +6,7 @@ a.active hr {
   display: block;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 762px) {
   a.active {
     background: #000;
     color: #fff;
@@ -32,4 +32,3 @@ a.active hr {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
- 

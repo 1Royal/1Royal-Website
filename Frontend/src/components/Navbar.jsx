@@ -11,12 +11,10 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <NavLink to="/">
-        <div className="logo | text-2xl font-serif text-gray-700  ">
-          1Royal
-        </div>
+        <div className="logo | text-2xl font-serif text-gray-700  ">1Royal</div>
       </NavLink>
 
-      <ul className="hidden sm:flex gap-5 text-gray-700 ">
+      <ul className="hidden md:flex gap-5 text-gray-700 ">
         <NavLink to="/" className="flex flex-col items-center gap-1">
           <p>HOME</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
@@ -34,6 +32,11 @@ const Navbar = () => {
 
         <NavLink to="/contact" className="flex flex-col items-center gap-1">
           <p>CONTACT</p>
+          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
+        </NavLink>
+
+        <NavLink to="/our-policy" className="flex flex-col items-center gap-1">
+          <p>OUR POLICIES</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
         </NavLink>
       </ul>
@@ -66,23 +69,66 @@ const Navbar = () => {
 
         <img
           src={assets.menu_bar_icon}
-          className="w-5 cursor-pointer sm:hidden"
+          className="w-5 cursor-pointer md:hidden"
           alt=""
           onClick={() => setVisible(true)}
         />
       </div>
 
       {/* Sidebar menu for smaller screen */}
-      <div className={`absolute top-0 right-0 bottom-0 overflow-hidden z-50 bg-white transition-all ${visible ? 'w-full' : 'w-0'}`}>
+      <div
+        className={`absolute top-0 right-0 bottom-0 overflow-hidden z-50 bg-white transition-all ${
+          visible ? "w-full" : "w-0"
+        }`}
+      >
         <div className="flex flex-col text-gray-600">
-          <div onClick={() => setVisible(false)} className="flex items-center gap-2 p-3 border border-b-gray-300 border-t-0">
-            <img src={assets.dropDown_icon} className="h-4 cursor-pointer" alt="" />
+          <div
+            onClick={() => setVisible(false)}
+            className="flex items-center gap-2 p-3 border border-b-gray-300 border-t-0"
+          >
+            <img
+              src={assets.dropDown_icon}
+              className="h-4 cursor-pointer"
+              alt=""
+            />
             <p className="cursor-pointer">Back</p>
           </div>
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border border-b-gray-300 border-t-0' to="/">HOME</NavLink>
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border border-b-gray-300 border-t-0' to="/allproducts">ALL PRODUCTS</NavLink>
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border border-b-gray-300 border-t-0' to="/about">ABOUT</NavLink>
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border border-b-gray-300 border-t-0' to="/contact">CONTACT</NavLink>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border border-b-gray-300 border-t-0"
+            to="/"
+          >
+            HOME
+          </NavLink>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border border-b-gray-300 border-t-0"
+            to="/allproducts"
+          >
+            ALL PRODUCTS
+          </NavLink>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border border-b-gray-300 border-t-0"
+            to="/about"
+          >
+            ABOUT
+          </NavLink>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border border-b-gray-300 border-t-0"
+            to="/contact"
+          >
+            CONTACT
+          </NavLink>
+
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border border-b-gray-300 border-t-0"
+            to="/our-policy"
+          >
+            OUR POLICIES
+          </NavLink>
         </div>
       </div>
     </div>
