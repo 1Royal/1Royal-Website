@@ -4,6 +4,7 @@ import LatestCollection from "../components/LatestCollection";
 import { Link } from "react-router-dom";
 import HorizontalSlider from "../components/Slider/HorizontalSlider";
 import { assets } from "../assets/assets";
+import Subscribe from "../components/subscribe";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         </Link>
       </div>
       <HorizontalSlider />
+      <Subscribe />
     </div>
   );
 };

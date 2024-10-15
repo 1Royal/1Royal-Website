@@ -149,3 +149,268 @@ export const products = [
     date: "10/9/2023",
   },
 ];
+
+export const allProducts = [
+  {
+    id: 1,
+    name: "Morly",
+    description: "Nevin",
+    images: [p_1, p_2, p_7, p_8],
+    date: "9/29/2024",
+  },
+  {
+    id: 2,
+    name: "Emmanuel",
+    description: "Lanny",
+    images: [p_1, p_2, p_3, p_9],
+    date: "8/6/2024",
+  },
+  {
+    id: 3,
+    name: "Edmon",
+    description: "Judd",
+    images: [p_1, p_2, p_4, p_10],
+    date: "10/16/2023",
+  },
+  {
+    id: 4,
+    name: "Lars",
+    description: "Gustavo",
+    images: [p_1, p_2, p_5, p_11],
+    date: "1/21/2024",
+  },
+  {
+    id: 5,
+    name: "Burr",
+    description: "Jerry",
+    images: [p_1, p_2, p_6, p_12],
+    date: "10/9/2023",
+  },
+  {
+    id: 6,
+    name: "Morly",
+    description: "Nevin",
+    images: [p_1, p_2, p_7, p_8],
+    date: "9/29/2024",
+  },
+  {
+    id: 7,
+    name: "Emmanuel",
+    description: "Lanny",
+    images: [p_1, p_2, p_3, p_9],
+    date: "8/6/2024",
+  },
+  {
+    id: 8,
+    name: "Edmon",
+    description: "Judd",
+    images: [p_1, p_2, p_4, p_10],
+    date: "10/16/2023",
+  },
+  {
+    id: 9,
+    name: "Lars",
+    description: "Gustavo",
+    images: [p_1, p_2, p_5, p_11],
+    date: "1/21/2024",
+  },
+  {
+    id: 10,
+    name: "Burr",
+    description: "Jerry",
+    images: [p_1, p_2, p_6, p_12],
+    date: "10/9/2023",
+  },
+  {
+    id: 11,
+    name: "Avery",
+    description:
+      "Roderick's premium leather wallet, made from high-quality cowhide and featuring a sleek design",
+    images: [p_3, p_5, p_7, p_9],
+    date: "5/15/2024",
+  },
+  {
+    id: 12,
+    name: "Cedric",
+    description:
+      "Eugene's signature watch, featuring a stainless steel case and a precise quartz movement",
+    images: [p_2, p_4, p_6, p_10],
+    date: "12/20/2023",
+  },
+  {
+    id: 13,
+    name: "Roderick",
+    description:
+      "Avery's luxurious silk tie, available in a range of stylish patterns and colors",
+    images: [p_1, p_3, p_5, p_8],
+    date: "7/25/2024",
+  },
+  {
+    id: 14,
+    name: "Eugene",
+    description:
+      "Cedric's high-performance wireless earbuds, with advanced noise cancellation and long battery life",
+    images: [p_2, p_4, p_6, p_9],
+    date: "3/10/2024",
+  },
+  {
+    id: 15,
+    name: "Lanny",
+    description:
+      "Emmanuel's premium coffee machine, featuring a sleek design and advanced brewing technology",
+    images: [p_1, p_3, p_5, p_10],
+    date: "11/12/2023",
+  },
+  {
+    id: 16,
+    name: "Judd",
+    description:
+      "Edmon's high-quality fitness tracker, with advanced heart rate monitoring and GPS tracking",
+    images: [p_2, p_4, p_6, p_11],
+    date: "6/1/2024",
+  },
+  {
+    id: 17,
+    name: "Gustavo",
+    description:
+      "Lars' premium gaming keyboard, featuring customizable backlighting and advanced macro capabilities",
+    images: [p_1, p_3, p_5, p_12],
+    date: "4/15/2024",
+  },
+  {
+    id: 18,
+    name: "Jerry",
+    description:
+      "Burr's high-performance drone, featuring advanced obstacle avoidance and 4K video recording",
+    images: [p_2, p_4, p_6, p_7],
+    date: "2/20/2024",
+  },
+  {
+    id: 19,
+    name: "Nevin",
+    description:
+      "Morly's luxurious cashmere sweater, available in a range of stylish colors and sizes",
+    images: [p_1, p_3, p_5, p_8],
+    date: "8/15/2024",
+  },
+  {
+    id: 20,
+    name: "Lanny",
+    description:
+      "Emmanuel's premium smartphone case, featuring advanced shock protection and stylish design",
+    images: [p_2, p_4, p_6, p_9],
+    date: "9/10/2024",
+  },
+  {
+    id: 21,
+    name: "Edmon",
+    description:
+      "Judd's high-quality wireless speaker, featuring advanced Bluetooth connectivity and long battery life",
+    images: [p_1, p_3, p_5, p_10],
+    date: "10/20/2023",
+  },
+  {
+    id: 22,
+    name: "Lars",
+    description:
+      "Gustavo's premium gaming mouse, featuring advanced optical sensor and customizable buttons",
+    images: [p_2, p_4, p_6, p_11],
+    date: "5/1/2024",
+  },
+  {
+    id: 23,
+    name: "Burr",
+    description:
+      "Jerry's high-performance action camera, featuring advanced image stabilization and 4K video recording",
+    images: [p_1, p_3, p_5, p_12],
+    date: "3/25/2024",
+  },
+  {
+    id: 24,
+    name: "Morly",
+    description:
+      "Nevin's luxurious leather handbag, available in a range of stylish colors and sizes",
+    images: [p_2, p_4, p_6, p_7],
+    date: "9/20/2024",
+  },
+  {
+    id: 26,
+    name: "Roderick",
+    description:
+      "Avery's luxurious silk scarf, available in a range of stylish patterns and colors",
+    images: [p_1, p_3, p_5, p_8],
+    date: "11/15/2023",
+  },
+  {
+    id: 27,
+    name: "Eugene",
+    description:
+      "Cedric's high-performance wireless headphones, with advanced noise cancellation and long battery life",
+    images: [p_2, p_4, p_6, p_9],
+    date: "4/10/2024",
+  },
+  {
+    id: 28,
+    name: "Lanny",
+    description:
+      "Emmanuel's premium espresso machine, featuring advanced brewing technology and sleek design",
+    images: [p_1, p_3, p_5, p_10],
+    date: "6/20/2024",
+  },
+  {
+    id: 29,
+    name: "Judd",
+    description:
+      "Edmon's high-quality fitness smartwatch, with advanced heart rate monitoring and GPS tracking",
+    images: [p_2, p_4, p_6, p_11],
+    date: "8/1/2024",
+  },
+  {
+    id: 30,
+    name: "Gustavo",
+    description:
+      "Lars' premium gaming chair, featuring advanced ergonomic design and customizable lumbar support",
+    images: [p_1, p_3, p_5, p_12],
+    date: "2/15/2024",
+  },
+  {
+    id: 31,
+    name: "Jerry",
+    description:
+      "Burr's high-performance portable power bank, featuring advanced battery life and compact design",
+    images: [p_2, p_4, p_6, p_7],
+    date: "10/10/2023",
+  },
+  {
+    id: 32,
+    name: "Nevin",
+    description:
+      "Morly's luxurious cashmere coat, available in a range of stylish colors and sizes",
+    images: [p_1, p_3, p_5, p_8],
+    date: "12/15/2023",
+  },
+  {
+    id: 33,
+    name: "Edmon",
+    description:
+      "Judd's high-quality wireless earbuds, featuring advanced noise cancellation and long battery life",
+    images: [p_2, p_4, p_6, p_9],
+    date: "7/10/2024",
+  },
+  {
+    id: 34,
+    name: "Lars",
+    description:
+      "Gustavo's premium gaming monitor, featuring advanced 4K resolution and fast response time",
+    images: [p_1, p_3, p_5, p_10],
+    date: "3/20/2024",
+  },
+  {
+    id: 35,
+    name: "Burr",
+    description:
+      "Jerry's high-performance drone racing kit, featuring advanced obstacle avoidance and 4K video recording",
+    images: [p_2, p_4, p_6, p_11],
+    date: "9/15/2024",
+  },
+];
