@@ -4,11 +4,29 @@ import ProductItem from "../components/ProductItem";
 import Title from "../components/Title";
 
 const AllProducts = () => {
-  const { allProducts } = useContext(ShopContext);
-  // console.log(allProducts)
+  const { allProducts, search, showSearch } = useContext(ShopContext);
+
+  // * Search any item
+  const searchItem = () => {
+    // Ensure to use a copy of allProducts for filtering
+    if (showSearch && search) {
+      // Use toLowerCase() instead of toLowercase()
+      return allProducts.filter((item) => {
+        return item.name.toLowerCase().includes(search.toLowerCase());
+      });
+    }
+    return allProducts; // Return original if no search
+  };
+
+  // Use a state variable to hold filtered products
+  const [filteredProducts, setFilteredProducts] = useState(allProducts);
+
+  useEffect(() => {
+    setFilteredProducts(searchItem());
+  }, [search, showSearch, allProducts]);
 
   return (
-    <div className="my-10">
+    <div>
       <div className="text-center py-8 text-3xl">
         <Title text1={"ALL"} text2={"PRODUCTS"} />
         <p className="w-3/4 m-auto capitalize text-xs sm:text-sm md:text-base text-gray-600">
@@ -18,7 +36,7 @@ const AllProducts = () => {
 
       {/* Rendering products */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6">
-        {allProducts.map((elem, i) => (
+        {filteredProducts.map((elem, i) => (
           <ProductItem
             key={i}
             id={elem.id}

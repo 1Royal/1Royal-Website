@@ -12,17 +12,17 @@ const Subscribe = () => {
       </p>
       <form
         onSubmit={handleSubmit}
-        className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 pl-3 border"
+        className="w-full sm:w-1/2 flex flex-col sm:flex-row border-0 sm:border  items-center gap-3 mx-auto my-6 pl-3  "
       >
         <input
-          className="w-full sm:flex-1 outline-none"
+          className="w-full  p-2 sm:flex-1 outline-none border sm:border-0"
           required
           type="email"
           placeholder="Enter Your Email"
         />
         <button
           type="submit"
-          className="bg-gray-50 text-gray-700 hover:bg-gray-900 hover:text-gray-50 transition-all ease-linear border-gray-900 border font-semibold text-xl px-6 py-2"
+          className="w-full sm:w-[40%]  bg-gray-50 text-gray-700 hover:bg-gray-900 hover:text-gray-50 transition-all ease-linear border-gray-900 border font-semibold text-xl px-2 py-2"
         >
           subscribe
         </button>

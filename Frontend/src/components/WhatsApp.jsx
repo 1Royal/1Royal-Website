@@ -8,7 +8,7 @@ const WhatsApp = () => {
       to="https://web.whatsapp.com/send?phone=919913332005&text="
     >
       <div className="fixed right-[3%] bottom-4">
-        <span class="chaty-svg">
+        <span className="chaty-svg">
           <svg
             width="39"
             height="39"
@@ -17,7 +17,7 @@ const WhatsApp = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <circle
-              class="color-element"
+              className="color-element"
               cx="19.4395"
               cy="19.4395"
               r="19.4395"
@@ -33,7 +33,7 @@ const WhatsApp = () => {
               transform="translate(7.7758 7.77582)"
               fill="white"
               stroke="white"
-              stroke-width="0.2"
+              strokeWidth="0.2"
             ></path>
           </svg>
         </span>
