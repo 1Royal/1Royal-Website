@@ -35,3 +35,8 @@ a.active hr {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+*::selection {
+  background: #111827;
+  color: #f9f3ee;
+}

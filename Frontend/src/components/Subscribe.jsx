@@ -18,7 +18,7 @@ const Subscribe = () => {
           className="w-full  p-2 sm:flex-1 outline-none border sm:border-0"
           required
           type="email"
-          placeholder="Enter Your Email"
+          placeholder="Your email (e.g., name@domain.com)"
         />
         <button
           type="submit"

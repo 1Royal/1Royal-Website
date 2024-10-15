@@ -60,20 +60,36 @@ const Hero = () => {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <img className="w-full" src={assets.hero_img} alt="" />
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full bg-center" src={assets.h_1} alt="" />
           </SwiperSlide>
 
-          <SwiperSlide>
-            <img className="w-full" src={assets.hero_img} alt="" />
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.h_2} alt="" />
           </SwiperSlide>
 
-          <SwiperSlide>
-            <img className="w-full" src={assets.hero_img} alt="" />
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full " src={assets.h_3} alt="" />
           </SwiperSlide>
 
-          <SwiperSlide>
-            <img className="w-full" src={assets.hero_img} alt="" />
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.h_4} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.h_5} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.h_6} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.h_7} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.h_8} alt="" />
           </SwiperSlide>
         </Swiper>
         {/* <img className="w-full sm:w-1/2 " src={assets.hero_img} alt="" /> */}

@@ -11,6 +11,15 @@ import p_10 from "./p_10.jpeg";
 import p_11 from "./p_11.jpeg";
 import p_12 from "./p_12.jpeg";
 
+import h_1 from "./h_1.jpeg";
+import h_2 from "./h_2.jpeg";
+import h_3 from "./h_3.jpeg";
+import h_4 from "./h_4.jpeg";
+import h_5 from "./h_5.jpeg";
+import h_6 from "./h_6.jpeg";
+import h_7 from "./h_7.jpeg";
+import h_8 from "./h_8.jpeg";
+
 // import logo from "./logo.png";
 import hero_img from "./p_9.jpeg";
 import cart_icon from "./cart-icon.svg";
@@ -75,6 +84,14 @@ export const assets = {
   ship_2,
   ship_3,
   ship_4,
+  h_1,
+  h_2,
+  h_3,
+  h_4,
+  h_5,
+  h_6,
+  h_7,
+  h_8,
 };
 
 export const products = [
