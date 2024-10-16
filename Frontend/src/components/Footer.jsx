@@ -26,7 +26,7 @@ const Footer = () => {
   return (
     <div className="mt-10 px-10 py-10 font-semibol text-gray-600  transition-all ease-in-out text-xl bg-[#f3f0f0]">
       <div className="links flex sm:flex-row flex-col gap-5 justify-between">
-        {/* Social Links */}
+        {/* ------------------------- Social Links ------------------------- */}
         <div>
           <Title text2={"Social"} />
           <ul className="flex flex-col gap-1">
@@ -107,7 +107,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Links */}
+        {/* ------------------------- Contact Links ------------------------- */}
 
         <div>
           <Title text2={"Contact"} />
@@ -143,7 +143,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Blogs / Blogger */}
+        {/* ------------------------- Blogs / Blogger ------------------------- */}
         <div>
           <Title text2={"Blogs"} />
           <ul className="flex flex-col gap-1">
@@ -165,9 +165,9 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Bottom */}
+      {/* ------------------------- Footer Bottom ------------------------- */}
       <div className="mt-5 flex flex-col lg:flex-row gap-5">
-        {/* Address */}
+        {/* ------------------------- Address ------------------------- */}
         <div className="lg:w-1/3 xl:w-1/3 md:w-full sm:w-full flex items-start gap-1 p-0 rounded">
           <img
             className="w-6 pt-[3px] min-w-5 inline"
@@ -180,7 +180,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Useful Links */}
+        {/* ------------------------- Useful Links ------------------------- */}
         <div className="lg:w-1/3 xl:w-1/3 md:w-full sm:w-full  rounded">
           <p className="text-xs opacity-95 uppercase">useful links</p>
           <ul className="flex flex-wrap gap-2 md:gap-4">
@@ -211,7 +211,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Version And Local Time */}
+        {/* ------------------------- Version And Local Time ------------------------- */}
         <div className="lg:w-1/3 xl:w-1/3 md:w-full sm:w-full md:flex block gap-4 justify-between sm:justify-normal">
           <div className="flex flex-col gap-1">
             <p className="text-xs opacity-95 uppercase">version</p>

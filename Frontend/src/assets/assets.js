@@ -171,70 +171,80 @@ export const allProducts = [
   {
     id: 1,
     name: "Morly",
-    description: "Nevin",
+    description:
+      "High-quality steel plates recovered from dismantled cargo ships, offering superior strength and corrosion resistance. Available in multiple thicknesses (10mm–50mm), these plates are ideal for industrial applications like construction, shipbuilding, and heavy machinery. Perfect for projects that demand durability and cost efficiency, our plates meet rigorous safety standards and offer a long-lasting solution for any large-scale requirement",
     images: [p_1, p_2, p_7, p_8],
     date: "9/29/2024",
   },
   {
     id: 2,
-    name: "Emmanuel",
-    description: "Lanny",
+    name: "Lanny ",
+    description:
+      "Engineered for maximum efficiency, these marine-grade propellers are sourced from decommissioned vessels. Built to withstand harsh ocean environments, they are made from corrosion-resistant alloys, ensuring long-term reliability. Ideal for commercial boats, ferries, and yachts, these propellers come in various sizes and pitch options, delivering smooth operation and optimal speed.",
     images: [p_2, p_2, p_3, p_9],
     date: "8/6/2024",
   },
   {
     id: 3,
-    name: "Edmon",
-    description: "Judd",
+    name: "Judd ",
+    description:
+      "High-tensile steel anchor chains, salvaged from large maritime vessels, provide unmatched strength and durability. Designed to handle extreme weather and heavy loads, these chains are ideal for commercial shipping, fishing fleets, and industrial mooring systems. Available in various lengths and diameters, each chain is inspected for quality and wear resistance",
     images: [p_3, p_2, p_4, p_10],
     date: "10/16/2023",
   },
   {
     id: 4,
     name: "Lars",
-    description: "Gustavo",
+    description:
+      "Advanced marine navigation systems, fully refurbished and tested for accuracy and reliability. These systems offer GPS, radar, and autopilot functions, perfect for large vessels navigating complex routes. Salvaged from modern ships, these units provide affordable and precise navigation for commercial or private marine use.",
     images: [p_4, p_2, p_5, p_11],
     date: "1/21/2024",
   },
   {
     id: 5,
     name: "Burr",
-    description: "Jerry",
+    description:
+      "Powerful marine diesel engines extracted from decommissioned vessels, built to last and perform under extreme conditions. These engines have been inspected and reconditioned for optimal performance, making them perfect for commercial and industrial use. Available in various horsepower ratings, they offer reliability and fuel efficiency.",
     images: [p_5, p_2, p_6, p_12],
     date: "10/9/2023",
   },
   {
     id: 6,
     name: "Morly",
-    description: "Nevin",
+    description:
+      "Heavy-duty ship deck winches, designed to handle extreme loads and harsh marine conditions. These winches, recovered from retired vessels, offer a cost-effective solution for lifting and towing operations. Fully refurbished and tested, they are available in electric and hydraulic models, ensuring smooth operation for marine and industrial applications.",
     images: [p_6, p_2, p_7, p_8],
     date: "9/29/2024",
   },
   {
     id: 7,
     name: "Emmanuel",
-    description: "Lanny",
+    description:
+      "Durable cargo hold hatch covers made from reinforced steel, designed to protect cargo from the harshest marine environments. Salvaged from large commercial vessels, these covers offer superior sealing properties and are ideal for use in shipbuilding, storage facilities, and industrial projects",
     images: [p_7, p_2, p_3, p_9],
     date: "8/6/2024",
   },
   {
     id: 8,
     name: "Edmon",
-    description: "Judd",
+    description:
+      "Precision-engineered marine gearboxes, sourced from decommissioned ships, are fully refurbished and ready for installation. These gearboxes are designed for smooth, reliable power transmission in a variety of marine and industrial applications. Available in multiple ratios to suit different engine types and vessel sizes",
     images: [p_8, p_2, p_4, p_10],
     date: "10/16/2023",
   },
   {
     id: 9,
     name: "Lars",
-    description: "Gustavo",
+    description:
+      "High-quality port lights and marine windows salvaged from ocean-going vessels. Built to withstand extreme conditions, these toughened glass units offer excellent visibility and durability. Perfect for boat retrofits or new shipbuilding projects, they come in a variety of shapes and sizes to fit your needs",
     images: [p_9, p_2, p_5, p_11],
     date: "1/21/2024",
   },
   {
     id: 10,
     name: "Burr",
-    description: "Jerry",
+    description:
+      "Sturdy marine-grade fuel tanks sourced from retired vessels, offering leak-proof storage for diesel and other fuels. These tanks are available in a range of capacities, providing a cost-effective solution for fueling boats, generators, and industrial equipment. Each tank is inspected and pressure-tested to ensure safety and longevity",
     images: [p_10, p_2, p_6, p_12],
     date: "10/9/2023",
   },
