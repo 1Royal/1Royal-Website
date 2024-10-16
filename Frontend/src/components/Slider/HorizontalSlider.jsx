@@ -4,16 +4,19 @@ import { assets } from "../../assets/assets";
 import Title from "../Title";
 
 const images1 = [
-  assets.p_1,
-  assets.p_1,
-  assets.p_1,
-  assets.p_1,
-  assets.p_1,
-  assets.p_1,
-  assets.p_1,
-  assets.p_1,
-  assets.p_1,
-  assets.p_1,
+  assets.slider_img_1,
+  assets.slider_img_2,
+  assets.slider_img_3,
+  assets.slider_img_4,
+  assets.slider_img_5,
+  assets.slider_img_6,
+  assets.slider_img_7,
+  assets.slider_img_8,
+  assets.slider_img_9,
+  assets.slider_img_10,
+  assets.slider_img_11,
+  assets.slider_img_12,
+  assets.slider_img_13,
 ];
 
 const HorizontalSlider = () => {
@@ -25,8 +28,8 @@ const HorizontalSlider = () => {
       <Slider
         className="my-5"
         width={200}
-        height={200}
-        quantity={10}
+        height={70}
+        quantity={13}
         images={images1}
       />
     </div>

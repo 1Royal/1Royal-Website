@@ -44,8 +44,8 @@ const Product = () => {
       {/* ------------------------- product images and data ------------------------- */}
       <div className="flex gap-12 sm:gap-12 flex-col sm:flex-row ">
         {/* ------------------------- product images / Right part ------------------------- */}
-        <div className="flex-1 flex flex-col-reverse gap-3 sm:flex-row">
-          <div className="flex flex-col overflow-x-auto justify-between  sm:overflow-y-scroll sm:justify-normal sm:w-[18.7%] w-full">
+        <div className="flex-1 flex flex-col-reverse gap-3 sm:flex-row ">
+          <div className="flex flex-col overflow-x-auto overflow-y-scroll h-1/2 justify-between sm:overflow-y-scroll sm:justify-normal sm:w-[18.7%] w-full">
             {productData.images.map((elem, index) => {
               return (
                 <img
@@ -77,7 +77,7 @@ const Product = () => {
               <div className="text-lg font-semibold flex items-center gap-3">
                 <p>+91 9913332005</p>
                 <p
-                  className="text-xs opacity-95 uppercase border  bg-gray-50 text-gray-700 hover:bg-gray-900 hover:text-gray-50 transition-all ease-linear border-gray-900   font-semibold p-2 cursor-pointer"
+                  className="text-xs opacity-95 uppercase border  bg-gray-50 text-gray-700 hover:bg-gray-900 hover:text-gray-50  transition-all ease-linear border-gray-900 p-2 cursor-pointer"
                   onClick={() => copyText("+91 9913332005")}
                 >
                   click to copy
@@ -92,7 +92,7 @@ const Product = () => {
               <div className="text-lg font-semibold flex items-center gap-3">
                 <p>royalmarinellp@gmail.com</p>
                 <p
-                  className="text-xs opacity-95 uppercase border  bg-gray-50 text-gray-700 hover:bg-gray-900 hover:text-gray-50 transition-all ease-linear border-gray-900   font-semibold p-2 cursor-pointer"
+                  className="text-xs opacity-95 uppercase border  bg-gray-50 text-gray-700 hover:bg-gray-900 hover:text-gray-50  transition-all ease-linear border-gray-900 p-2 cursor-pointer"
                   onClick={() => copyText("royalmarinellp@gmail.com")}
                 >
                   click to copy

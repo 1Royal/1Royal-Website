@@ -47,6 +47,20 @@ import ship_2 from "./about-ship-2.png";
 import ship_3 from "./about-ship-3.jpg";
 import ship_4 from "./about-ship-4.jpg";
 
+import slider_img_1 from "./Brands-logo/ABB 1.png";
+import slider_img_2 from "./Brands-logo/ALFA LAVAL 1.png";
+import slider_img_3 from "./Brands-logo/ALLEN BRADLEY.png";
+import slider_img_4 from "./Brands-logo/autronica 1.png";
+import slider_img_5 from "./Brands-logo/azbil-logo 1.png";
+import slider_img_6 from "./Brands-logo/band-it 1.png";
+import slider_img_7 from "./Brands-logo/BAUER 1.png";
+import slider_img_8 from "./Brands-logo/BOLLFILTER 1.png";
+import slider_img_9 from "./Brands-logo/consilium.png";
+import slider_img_10 from "./Brands-logo/DAIHATSU 1.png";
+import slider_img_11 from "./Brands-logo/drager 1.png";
+import slider_img_12 from "./Brands-logo/ENERPAC 1.png";
+import slider_img_13 from "./Brands-logo/EVAC 1.png";
+
 export const assets = {
   social_blogger,
   social_facebook,
@@ -92,6 +106,20 @@ export const assets = {
   h_6,
   h_7,
   h_8,
+
+  slider_img_1,
+  slider_img_2,
+  slider_img_3,
+  slider_img_4,
+  slider_img_5,
+  slider_img_6,
+  slider_img_7,
+  slider_img_8,
+  slider_img_9,
+  slider_img_10,
+  slider_img_11,
+  slider_img_12,
+  slider_img_13,
 };
 
 export const products = [
@@ -173,7 +201,7 @@ export const allProducts = [
     name: "Morly",
     description:
       "High-quality steel plates recovered from dismantled cargo ships, offering superior strength and corrosion resistance. Available in multiple thicknesses (10mm–50mm), these plates are ideal for industrial applications like construction, shipbuilding, and heavy machinery. Perfect for projects that demand durability and cost efficiency, our plates meet rigorous safety standards and offer a long-lasting solution for any large-scale requirement",
-    images: [p_1, p_2, p_7, p_8],
+    images: [p_1, p_2, p_7, p_8, p_1, p_2, p_7, p_8],
     date: "9/29/2024",
   },
   {

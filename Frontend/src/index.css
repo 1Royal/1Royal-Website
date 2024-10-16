@@ -18,7 +18,7 @@ a.active hr {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 /* Track */
@@ -28,11 +28,12 @@ a.active hr {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #1d2432;
+  border-radius: 8px;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+*::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 

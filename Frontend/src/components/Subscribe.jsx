@@ -1,4 +1,6 @@
 import React from "react";
+import BTN from "./BTN";
+import Title from "./Title";
 
 const Subscribe = () => {
   const handleSubmit = (e) => {
@@ -6,9 +8,13 @@ const Subscribe = () => {
   };
 
   return (
-    <div className="text-center">
+    <div className="text-center my-10">
       <p className="text-2xl font-medium text-gray-800 capitalize mt-5">
-        Subscribe now
+        <Title
+          className="text-3xl font-medium text-gray-800 capitalize mt-5"
+          text1={"subscribe"}
+          text2={"now"}
+        />
       </p>
       <form
         onSubmit={handleSubmit}
