@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
+import { assets } from "../assets/assets";
 const Product = () => {
   const { productId } = useParams();
   // console.log(productId);
 
-  const { allProducts } = useContext(ShopContext);
+  const { allProducts, toggleLike } = useContext(ShopContext);
   // console.log(allProducts)
   const [productData, setProductData] = useState(false);
 
@@ -45,7 +46,7 @@ const Product = () => {
       <div className="flex gap-12 sm:gap-12 flex-col sm:flex-row ">
         {/* ------------------------- product images / Right part ------------------------- */}
         <div className="flex-1 flex flex-col-reverse gap-3 sm:flex-row ">
-          <div className="flex flex-col overflow-x-auto overflow-y-scroll h-1/2 justify-between sm:overflow-y-scroll sm:justify-normal sm:w-[18.7%] w-full">
+          <div className="flex flex-col overflow-x-auto overflow-y-scroll max-h-[70vh] justify-between sm:overflow-y-scroll sm:justify-normal sm:w-[18.7%] w-full">
             {productData.images.map((elem, index) => {
               return (
                 <img
@@ -97,6 +98,9 @@ const Product = () => {
                 >
                   click to copy
                 </p>
+              </div>
+              <div onClick={() => toggleLike(productData.id)}>
+                Like <img src={assets.icon_like_fill} alt="" />
               </div>
             </div>
           </div>

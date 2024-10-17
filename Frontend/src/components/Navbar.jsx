@@ -74,8 +74,8 @@ const Navbar = () => {
           </div>
         </div>
 
-        <Link to="/cart" className="relative">
-          <img src={assets.cart_icon} className="w-5 min-w-5" alt="" />
+        <Link to="/liked-data" className="relative">
+          <img src={assets.icon_like_stroke} className="w-5 min-w-5" alt="" />
           <p className="absolute right-[-5px] bottom-[-5px] w-4 text-center bg-black text-white leading-4 aspect-square rounded-full text-[10px]">
             10
           </p>
