@@ -1,3 +1,6 @@
+import logo1 from "./LOGO/LOGO1.png";
+import logo2 from "./LOGO/LOGO2.png";
+
 import p_1 from "./p_1.jpeg";
 import p_2 from "./p_2.jpeg";
 import p_3 from "./p_3.jpeg";
@@ -62,8 +65,29 @@ import slider_img_10 from "./Brands-logo/DAIHATSU 1.png";
 import slider_img_11 from "./Brands-logo/drager 1.png";
 import slider_img_12 from "./Brands-logo/ENERPAC 1.png";
 import slider_img_13 from "./Brands-logo/EVAC 1.png";
+import slider_img_14 from "./Brands-logo/FILL RITE.png";
+import slider_img_15 from "./Brands-logo/HONEYWELL.png";
+import slider_img_16 from "./Brands-logo/JUMO.png";
+import slider_img_17 from "./Brands-logo/keiki-logo.png";
+import slider_img_18 from "./Brands-logo/KONGSBERG.png";
+import slider_img_19 from "./Brands-logo/MMC.png";
+import slider_img_20 from "./Brands-logo/OCENCO.png";
+import slider_img_21 from "./Brands-logo/OPW.png";
+import slider_img_22 from "./Brands-logo/PARKER LUCIFER.png";
+import slider_img_23 from "./Brands-logo/SIEMENS.png";
+import slider_img_24 from "./Brands-logo/SIKA.png";
+import slider_img_25 from "./Brands-logo/SKF.png";
+import slider_img_26 from "./Brands-logo/SOLO.png";
+import slider_img_27 from "./Brands-logo/SQUARE D.png";
+import slider_img_28 from "./Brands-logo/VAF.png";
+import slider_img_29 from "./Brands-logo/WAGO.png";
+import slider_img_30 from "./Brands-logo/WILDEN.png";
+import slider_img_31 from "./Brands-logo/WOODWARD.png";
+import slider_img_32 from "./Brands-logo/yuken-logo.png";
 
 export const assets = {
+  logo1,
+  logo2,
   icon_like_fill,
   icon_like_stroke,
   social_blogger,
@@ -124,6 +148,25 @@ export const assets = {
   slider_img_11,
   slider_img_12,
   slider_img_13,
+  slider_img_14,
+  slider_img_15,
+  slider_img_16,
+  slider_img_17,
+  slider_img_18,
+  slider_img_19,
+  slider_img_20,
+  slider_img_21,
+  slider_img_22,
+  slider_img_23,
+  slider_img_24,
+  slider_img_25,
+  slider_img_26,
+  slider_img_27,
+  slider_img_28,
+  slider_img_29,
+  slider_img_30,
+  slider_img_31,
+  slider_img_32,
 };
 
 export const products = [

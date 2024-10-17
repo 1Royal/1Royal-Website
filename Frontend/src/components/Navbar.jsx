@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <NavLink to="/">
-        <div className="logo | text-2xl font-serif text-gray-700  ">1Royal</div>
+        <div>
+          <img className="w-full" src={assets.logo1} alt="1Royal Marine LLP" />
+        </div>
       </NavLink>
 
       <ul className="hidden md:flex gap-5 text-gray-700 ">
