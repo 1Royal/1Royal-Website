@@ -14,7 +14,7 @@ const OurPolicy = () => {
         text={`We strive to process and ship all orders within 24-48 hours of receipt We offer competitive shipping rates and estimated delivery times Please note that shipping times may vary depending on your location and the shipping method chosen We are not responsible for any delays caused by the shipping carrier or circumstances beyond our control `}
       />
 
-      <para
+      <Para
         heading="Privacy Policy"
         text={`Privacy Policy
             We respect your privacy and are committed to protecting your personal information

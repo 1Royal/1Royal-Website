@@ -9,20 +9,8 @@ const ShopContextProvider = (props) => {
   // const currency = "$";
   // const deliveryFee = 10;
 
-  const [tempAllProd, setTempAllProd] = useState(allProducts);
   const [search, setSearch] = useState("");
   const [showSearch, setShowSearch] = useState(false);
-
-  const toggleLike = async (prodId) => {
-    setTempAllProd((prevProducts) =>
-      prevProducts.map((product) =>
-        product.id === prodId
-          ? { ...product, isLiked: !product.isLiked }
-          : product
-      )
-    );
-    console.log(tempAllProd);
-  };
 
   const value = {
     products,
@@ -34,8 +22,6 @@ const ShopContextProvider = (props) => {
     setSearch,
     showSearch,
     setShowSearch,
-
-    toggleLike,
   };
   return (
     <ShopContext.Provider value={value}>{props.children}</ShopContext.Provider>

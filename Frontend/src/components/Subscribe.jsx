@@ -9,13 +9,13 @@ const Subscribe = () => {
 
   return (
     <div className="text-center my-10">
-      <p className="text-2xl font-medium text-gray-800 capitalize mt-5">
+      <div className="text-2xl font-medium text-gray-800 capitalize mt-5">
         <Title
           className="text-3xl font-medium text-gray-800 capitalize mt-5"
           text1={"subscribe"}
           text2={"now"}
         />
-      </p>
+      </div>
       <form
         onSubmit={handleSubmit}
         className="w-full sm:w-1/2 flex flex-col sm:flex-row border-0 sm:border  items-center gap-3 mx-auto my-6 pl-3  "

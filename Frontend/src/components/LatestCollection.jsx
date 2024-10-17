@@ -15,7 +15,7 @@ const LatestCollection = () => {
     setlatestProducts(products.slice(0, 10));
   }, []);
 
-  console.log("ans = ", latestProducts);
+  // console.log("ans = ", latestProducts);
 
   return (
     <div className="mt-10">
@@ -39,7 +39,7 @@ const LatestCollection = () => {
       </div>
       <div className="flex items-center justify-center">
         <Link to="/allproducts">
-          <button className=" uppercase bg-gray-50 text-gray-700 hover:bg-gray-900 hover:text-gray-50 transition-all ease-linear border-gray-900 border  px-10 py-2 font-semibold   transition-all ease-in-out text-xl ">
+          <button className=" uppercase bg-gray-50 text-gray-700 hover:bg-gray-900 hover:text-gray-50 border-gray-900 border  px-10 py-2 font-semibold   transition-all ease-linear text-xl ">
             view all products
           </button>
         </Link>
