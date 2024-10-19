@@ -61,7 +61,7 @@ const Hero = () => {
           className="mySwiper"
         >
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full " src={assets.h_1} alt="" />
+            <img className="w-full  " src={assets.h_1} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
