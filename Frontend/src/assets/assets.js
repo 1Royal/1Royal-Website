@@ -47,10 +47,10 @@ import icon_location from "./icon-location.svg";
 import icon_like_stroke from "./like-stroke.svg";
 import icon_like_fill from "./like-fill.svg";
 
-import ship_1 from "./about-ship-1.jpg";
+import ship_1 from "./about-ship-1.png";
 import ship_2 from "./about-ship-2.png";
-import ship_3 from "./about-ship-3.jpg";
-import ship_4 from "./about-ship-4.jpg";
+import ship_3 from "./about-ship-3.png";
+import ship_4 from "./about-ship-4.png";
 
 import slider_img_1 from "./Brands-logo/ABB 1.png";
 import slider_img_2 from "./Brands-logo/ALFA LAVAL 1.png";
