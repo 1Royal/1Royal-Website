@@ -12,7 +12,7 @@ const Product = () => {
 
   const [image, setImage] = useState("");
 
-  const [showForm, setShowForm] = useState(true);
+  const [showForm, setShowForm] = useState(false);
 
   const fetchProductData = async () => {
     allProducts.map((elem) => {
