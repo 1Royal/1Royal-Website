@@ -2,15 +2,17 @@ import React, { useContext, useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
 import { assets } from "../assets/assets";
+import FormOrder from "../components/FormOrder";
 const Product = () => {
   const { productId } = useParams();
   // console.log(productId);
 
   const { allProducts, toggleLike } = useContext(ShopContext);
-  // console.log(allProducts)
   const [productData, setProductData] = useState(false);
 
   const [image, setImage] = useState("");
+
+  const [showForm, setShowForm] = useState(true);
 
   const fetchProductData = async () => {
     allProducts.map((elem) => {
@@ -85,7 +87,6 @@ const Product = () => {
                 </p>
               </div>
             </div>
-
             <div className="flex flex-col items-start  mt-4">
               <p className="text-xs opacity-95 uppercase">
                 Mail Us for Details
@@ -103,6 +104,21 @@ const Product = () => {
                 Like <img src={assets.icon_like_fill} alt="" />
               </div>
             </div>
+            {/* form */}
+            <hr />
+            <div className="flex flex-col items-start  mt-4">
+              <p className="text-xs opacity-95 uppercase">Send Msg</p>
+              <div className="text-lg font-semibold flex items-center gap-3">
+                <p>form</p>
+              </div>
+              <div
+                onClick={() => setShowForm(true)}
+                className="bg-black text-white"
+              >
+                Get Form
+              </div>
+            </div>
+            {showForm ? <FormOrder setShowForm={setShowForm} /> : null}
           </div>
         </div>
       </div>
