@@ -72,7 +72,12 @@ const FormOrder = ({ setShowForm, productId }) => {
         </h3>
 
         <form action="" onSubmit={handleSubmit}>
-          <input type="hidden" className="hidden" name="product_id" defaultValue={productId || 404} />
+          <input
+            type="hidden"
+            className="hidden"
+            name="product_id"
+            defaultValue={productId || 404}
+          />
 
           <div className="flex flex-col gap-6">
             {/* Full Name and Email */}

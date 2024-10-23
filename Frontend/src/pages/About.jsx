@@ -60,7 +60,7 @@ const About = () => {
               <img
                 loading="eager"
                 className="w-full h-full"
-                src={assets.ship_1}
+                src={assets.aboutShip.ship_1}
                 alt=""
               />
             </SwiperSlide>
@@ -69,7 +69,7 @@ const About = () => {
               <img
                 loading="eager"
                 className="w-full h-full"
-                src={assets.ship_2}
+                src={assets.aboutShip.ship_2}
                 alt=""
               />
             </SwiperSlide>
@@ -78,7 +78,7 @@ const About = () => {
               <img
                 loading="eager"
                 className="w-full h-full"
-                src={assets.ship_3}
+                src={assets.aboutShip.ship_3}
                 alt=""
               />
             </SwiperSlide>
@@ -87,7 +87,7 @@ const About = () => {
               <img
                 loading="eager"
                 className="w-full h-full"
-                src={assets.ship_4}
+                src={assets.aboutShip.ship_4}
                 alt=""
               />
             </SwiperSlide>

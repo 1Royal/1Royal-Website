@@ -14,11 +14,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between py-5 font-medium">
       <NavLink className="lg:w-[15%] md:w-[15%] w-[30%] " to="/">
         <div className="w-full">
-          <img
-            className=" "
-            src={assets.logo1}
-            alt="1Royal Marine LLP"
-          />
+          <img className=" " src={assets.logo.logo1} alt="1Royal Marine LLP" />
         </div>
       </NavLink>
 

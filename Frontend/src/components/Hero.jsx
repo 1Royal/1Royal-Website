@@ -61,35 +61,103 @@ const Hero = () => {
           className="mySwiper"
         >
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full  " src={assets.h_1} alt="" />
+            <img className="w-full" src={assets.hero_img.h_1} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.h_2} alt="" />
+            <img className="w-full" src={assets.hero_img.h_2} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full " src={assets.h_3} alt="" />
+            <img className="w-full" src={assets.hero_img.h_3} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.h_4} alt="" />
+            <img className="w-full" src={assets.hero_img.h_4} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.h_5} alt="" />
+            <img className="w-full" src={assets.hero_img.h_5} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.h_6} alt="" />
+            <img className="w-full" src={assets.hero_img.h_6} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.h_7} alt="" />
+            <img className="w-full" src={assets.hero_img.h_7} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.h_8} alt="" />
+            <img className="w-full" src={assets.hero_img.h_8} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_9} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_10} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_11} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_12} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_13} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_14} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_15} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_16} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_17} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_18} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_23} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_24} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_25} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_26} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_27} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_28} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide className="flex items-center justify-center">
+            <img className="w-full" src={assets.hero_img.h_29} alt="" />
           </SwiperSlide>
         </Swiper>
         {/* <img className="w-full sm:w-1/2 " src={assets.hero_img} alt="" /> */}
