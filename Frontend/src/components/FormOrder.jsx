@@ -2,16 +2,46 @@ import React from "react";
 import { assets } from "../assets/assets";
 
 const FormOrder = ({ setShowForm, productId }) => {
+  console.log(productId);
+
+  // const handleSubmit = async (e) => {
+  //   alert("We will contact you soon");
+  //   e.preventDefault();
+  //   setShowForm(false);
+
+  //   const form = document.querySelector("form");
+  //   const formData = new FormData(form);
+  //   formData.append("productId", productId || 404);
+  //   console.log(formData)
+
+  //   const apiLink =
+  //     "https://script.google.com/macros/s/AKfycbweCWiiJ0uPs4fosRslsSMkKEFBr65sxYN6Pl-P-pLVG4XDFfi_aETN7EVoGzTuqDdQmQ/exec";
+  //   const response = await fetch(apiLink, {
+  //     method: "POST",
+  //     body: formData,
+  //   });
+
+  //   if (response.ok) {
+  //     console.log("Done");
+  //   } else {
+  //     console.error("Failed to submit");
+  //   }
+  // };
   const handleSubmit = async (e) => {
-    alert("We will contact you soon");
     e.preventDefault();
+    alert("We will contact you soon");
     setShowForm(false);
 
     const form = document.querySelector("form");
     const formData = new FormData(form);
 
+    // Log form data
+    for (let [key, value] of formData.entries()) {
+      console.log(key, value);
+    }
+
     const apiLink =
-      "https://script.google.com/macros/s/AKfycbzhDfu73SYU3blue-idORaM2x0GkmY6hzv58jwRR104iMQ7nJFSSr3Klb8RIraGK6usuQ/exec";
+      "https://script.google.com/macros/s/AKfycbweCWiiJ0uPs4fosRslsSMkKEFBr65sxYN6Pl-P-pLVG4XDFfi_aETN7EVoGzTuqDdQmQ/exec";
     const response = await fetch(apiLink, {
       method: "POST",
       body: formData,
@@ -42,7 +72,8 @@ const FormOrder = ({ setShowForm, productId }) => {
         </h3>
 
         <form action="" onSubmit={handleSubmit}>
-          <input type="number" className="hidden" name="productId" value={productId} />
+          <input type="hidden" className="hidden" name="product_id" defaultValue={productId || 404} />
+
           <div className="flex flex-col gap-6">
             {/* Full Name and Email */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
