@@ -24,30 +24,20 @@ const Product = () => {
     fetchProductData();
   }, [productId, allProducts]);
 
-  const copyText = (text) => {
-    try {
-      window.navigator.clipboard.writeText(text);
-      alert("Copied to clipboard");
-    } catch (err) {
-      console.log(err);
-      alert("Something went wrong");
-    }
-  };
-
   return productData ? (
     <div className="border-t-2 pt-10 transition-opacity ease-in-out duration-500 opacity-100">
       {/* Product images and data */}
       <div className="flex gap-12 sm:gap-12 flex-col sm:flex-row ">
         {/* Product images */}
         <div className="flex-1 flex flex-col-reverse gap-3 sm:flex-row ">
-          <div className="flex flex-row md:flex-col overflow-x-auto overflow-y-scroll max-h-[70vh] justify-between sm:overflow-y-scroll sm:justify-normal sm:w-[18.7%] w-full">
+          <div className="flex flex-row gap-1 md:flex-col overflow-x-auto overflow-y-scroll max-h-[70vh] justify-between sm:overflow-y-scroll sm:justify-normal sm:w-[18.7%] w-full">
             {productData.images.map((elem, index) => {
               return (
                 <img
                   onClick={() => setImage(elem)}
                   src={elem}
                   key={index}
-                  className="w-[24%] sm:w-full sm:mb-3 flex-shrink-0 cursor-pointer"
+                  className="w-[24%] sm:w-full  border border-gray-700 sm:mb-3 flex-shrink-0 cursor-pointer"
                   alt={`product img ${index}`}
                 />
               );
@@ -70,7 +60,7 @@ const Product = () => {
                 Call Us for Details
               </p>
               <div className="text-lg font-semibold flex flex-col md:flex-col gap-3">
-                <p>+91 9913332005</p>
+                <p>+91 9426831011</p>
               </div>
             </div>
 
@@ -79,7 +69,7 @@ const Product = () => {
                 Mail Us for Details
               </p>
               <div className="text-lg font-semibold flex flex-col md:flex-col gap-3">
-                <p>royalmarinellp@gmail.com</p>
+                <p>sales@1royalmarinellp.com</p>
               </div>
             </div>
 

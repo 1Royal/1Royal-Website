@@ -24,7 +24,7 @@ const Footer = () => {
   showTime = tConvert(showTime);
 
   return (
-    <div className="mt-10 px-10 py-10 font-semibol text-gray-600  transition-all ease-in-out text-xl bg-[#f3f0f0]">
+    <div className="mt-10 px-10 py-10  font-semibol text-gray-600  transition-all ease-in-out text-xl bg-[#f3f0f0]">
       <div className="links flex sm:flex-row flex-col gap-5 justify-between">
         {/* ------------------------- Social Links ------------------------- */}
         <div>

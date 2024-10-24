@@ -592,7 +592,7 @@ export const products = [
     productCount: 0,
     name: "Pfannenberg CWB - ATEX 5J Optical Beacon Lampe Flash Made in Germany New",
     description:
-      "High-tensile steel anchor chains, salvaged from large maritime vessels, provide unmatched strength and durability. Designed to handle extreme weather and heavy loads, these chains are ideal for commercial shipping, fishing fleets, and industrial mooring systems. Available in various lengths and diameters, each chain is inspected for quality and wear resistance",
+      "Pfannenberg CWB - ATEX 5J | Optical Beacon Lampe Flash | Made in Germany | New",
     images: [p153_1, p153_2, p153_3, p153_4, p153_5],
     date: "10/16/2023",
     isLiked: true,
@@ -602,7 +602,7 @@ export const products = [
     productCount: 0,
     name: "Parker Lucifer Sa 495905C2 HZ96C2 496489 Solenoid Valve New",
     description:
-      "Advanced marine navigation systems, fully refurbished and tested for accuracy and reliability. These systems offer GPS, radar, and autopilot functions, perfect for large vessels navigating complex routes. Salvaged from modern ships, these units provide affordable and precise navigation for commercial or private marine use.",
+      "Parker Lucifer Sa 495905C2 HZ96C2 496489 | Solenoid Valve | New",
     images: [p192_1, p192_2, p192_3, p192_4, p192_5],
     date: "1/21/2024",
     isLiked: true,
@@ -748,7 +748,7 @@ export const allProducts = [
     productCount: 0,
     name: "Pfannenberg CWB - ATEX 5J Optical Beacon Lampe Flash Made in Germany New",
     description:
-      "High-tensile steel anchor chains, salvaged from large maritime vessels, provide unmatched strength and durability. Designed to handle extreme weather and heavy loads, these chains are ideal for commercial shipping, fishing fleets, and industrial mooring systems. Available in various lengths and diameters, each chain is inspected for quality and wear resistance",
+      "Pfannenberg CWB - ATEX 5J | Optical Beacon Lampe Flash | Made in Germany | New",
     images: [p153_1, p153_2, p153_3, p153_4, p153_5],
     date: "10/16/2023",
     isLiked: true,
@@ -758,7 +758,7 @@ export const allProducts = [
     productCount: 0,
     name: "Parker Lucifer Sa 495905C2 HZ96C2 496489 Solenoid Valve New",
     description:
-      "Advanced marine navigation systems, fully refurbished and tested for accuracy and reliability. These systems offer GPS, radar, and autopilot functions, perfect for large vessels navigating complex routes. Salvaged from modern ships, these units provide affordable and precise navigation for commercial or private marine use.",
+      "Parker Lucifer Sa 495905C2 HZ96C2 496489 | Solenoid Valve | New",
     images: [p192_1, p192_2, p192_3, p192_4, p192_5],
     date: "1/21/2024",
     isLiked: true,

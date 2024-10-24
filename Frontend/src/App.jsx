@@ -20,7 +20,7 @@ import LikedItem from "./pages/LikedItem";
 
 const App = () => {
   return (
-    <div className="px-4 sm:px-[3vw] md:px-[5vw] lg:px-[7vw]">
+    <div className="px-2 sm:px-[3vw] md:px-[5vw] lg:px-[7vw]">
       <Navbar />
       <SearchBar />
 
