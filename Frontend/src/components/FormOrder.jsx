@@ -4,29 +4,6 @@ import { assets } from "../assets/assets";
 const FormOrder = ({ setShowForm, productId }) => {
   console.log(productId);
 
-  // const handleSubmit = async (e) => {
-  //   alert("We will contact you soon");
-  //   e.preventDefault();
-  //   setShowForm(false);
-
-  //   const form = document.querySelector("form");
-  //   const formData = new FormData(form);
-  //   formData.append("productId", productId || 404);
-  //   console.log(formData)
-
-  //   const apiLink =
-  //     "https://script.google.com/macros/s/AKfycbweCWiiJ0uPs4fosRslsSMkKEFBr65sxYN6Pl-P-pLVG4XDFfi_aETN7EVoGzTuqDdQmQ/exec";
-  //   const response = await fetch(apiLink, {
-  //     method: "POST",
-  //     body: formData,
-  //   });
-
-  //   if (response.ok) {
-  //     console.log("Done");
-  //   } else {
-  //     console.error("Failed to submit");
-  //   }
-  // };
   const handleSubmit = async (e) => {
     e.preventDefault();
     alert("We will contact you soon");

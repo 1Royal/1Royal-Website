@@ -61,15 +61,7 @@ const Hero = () => {
           className="mySwiper"
         >
           <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.hero_img.h_1} alt="" />
-          </SwiperSlide>
-
-          <SwiperSlide className="flex items-center justify-center">
             <img className="w-full" src={assets.hero_img.h_2} alt="" />
-          </SwiperSlide>
-
-          <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.hero_img.h_3} alt="" />
           </SwiperSlide>
 
           <SwiperSlide className="flex items-center justify-center">
@@ -154,10 +146,6 @@ const Hero = () => {
 
           <SwiperSlide className="flex items-center justify-center">
             <img className="w-full" src={assets.hero_img.h_28} alt="" />
-          </SwiperSlide>
-
-          <SwiperSlide className="flex items-center justify-center">
-            <img className="w-full" src={assets.hero_img.h_29} alt="" />
           </SwiperSlide>
         </Swiper>
         {/* <img className="w-full sm:w-1/2 " src={assets.hero_img} alt="" /> */}

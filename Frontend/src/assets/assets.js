@@ -15,9 +15,7 @@ import p_11 from "./p_11.jpeg";
 import p_12 from "./p_12.jpeg";
 
 // Hero Slider Images
-import h_1 from "./Hero_imgs/h_1.png";
 import h_2 from "./Hero_imgs/h_2.png";
-import h_3 from "./Hero_imgs/h_3.png";
 import h_4 from "./Hero_imgs/h_4.png";
 import h_5 from "./Hero_imgs/h_5.png";
 import h_6 from "./Hero_imgs/h_6.png";
@@ -39,9 +37,7 @@ import h_25 from "./Hero_imgs/h_25.png";
 import h_26 from "./Hero_imgs/h_26.png";
 import h_27 from "./Hero_imgs/h_27.png";
 import h_28 from "./Hero_imgs/h_28.png";
-import h_29 from "./Hero_imgs/h_29.png";
 
-// import logo from "./logo.png";
 import bin_icon from "./bin-icon.svg";
 import contact_icon from "./contact-call-icon.svg";
 import cross_icon from "./cross-icon.svg";
@@ -382,11 +378,11 @@ import p413_4 from "./Products/413 Saab Rosemount TankRadar Star TMB 5110 S_N 45
 // import p415_1 from "./Products/415 SAACKE FLS 09 UV-5 IP65 7-8155 F..Nr..900157 Flame Sensor #3/01_2.jpeg";
 // import p415_2 from "./Products/415 SAACKE FLS 09 UV-5 IP65 7-8155 F..Nr..900157 Flame Sensor #3/01_3.jpeg";
 // import p415_3 from "./Products/415 SAACKE FLS 09 UV-5 IP65 7-8155 F..Nr..900157 Flame Sensor #3/07.jpeg";
-// // import p415_4 from "./Products/415 SAACKE FLS 09 UV-5 IP65 7-8155 F..Nr..900157 Flame Sensor #3/09_2.jpeg";
+// import p415_4 from "./Products/415 SAACKE FLS 09 UV-5 IP65 7-8155 F..Nr..900157 Flame Sensor #3/09_2.jpeg";
 // import p415_5 from "./Products/415 SAACKE FLS 09 UV-5 IP65 7-8155 F..Nr..900157 Flame Sensor #3/09_3.jpeg";
 
-import p416_1 from "./Products/416 New Fellow Kogyo CT-2 Level Controller CT2 Made in Japan/01.jpeg";
-import p416_2 from "./Products/416 New Fellow Kogyo CT-2 Level Controller CT2 Made in Japan/03.jpeg";
+import p416_1 from "./Products/416 New Fellow Kogyo CT-2 Level Controller CT2 Made in Japan/03.jpeg";
+import p416_2 from "./Products/416 New Fellow Kogyo CT-2 Level Controller CT2 Made in Japan/01.jpeg";
 import p416_3 from "./Products/416 New Fellow Kogyo CT-2 Level Controller CT2 Made in Japan/09.jpeg";
 import p416_4 from "./Products/416 New Fellow Kogyo CT-2 Level Controller CT2 Made in Japan/11.jpeg";
 
@@ -472,9 +468,7 @@ import p98_5 from "./Products/98 Elomek GP 600N Magnetic Fire Door Control 230 V
 
 export const assets = {
   hero_img: {
-    h_1,
     h_2,
-    h_3,
     h_4,
     h_5,
     h_6,
@@ -496,7 +490,6 @@ export const assets = {
     h_26,
     h_27,
     h_28,
-    h_29,
   },
 
   logo: {
