@@ -44,7 +44,7 @@ const HorizontalSlider = () => {
   return (
     <div className="my-5">
       <h1 className="text-3xl text-center font-semibold my-7 text-gray-700">
-        <Title text2={"We Deal With This Brands"} />
+        <Title text2={"We Deal With These Brands"} />
       </h1>
       <Slider
         className="my-5"
